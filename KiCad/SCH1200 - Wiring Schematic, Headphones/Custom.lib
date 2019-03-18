@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ANR_Module
+#
+DEF ANR_Module A 0 40 Y Y 1 F N
+F0 "A" 0 450 50 H V C CNN
+F1 "ANR_Module" 0 350 50 H V C CNN
+F2 "" -750 300 50 H I C CNN
+F3 "" -750 300 50 H I C CNN
+DRAW
+S -150 0 150 300 0 1 0 N
+X +9V ~ 0 -100 100 U 50 50 1 1 I
+X AUDIO ~ 100 -100 100 U 50 50 1 1 I
+X COM ~ -100 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

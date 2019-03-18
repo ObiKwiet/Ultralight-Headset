@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+LIBS:SCH1100 - IO Module-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Wiring Schematic, IO Module"
+Date ""
+Rev "A"
+Comp "SCH1100"
+Comment1 "Author: Seth Tucker"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x08_Female J1
+U 1 1 5B8B29F9
+P 3250 1200
+F 0 "J1" V 3150 1700 50  0000 C CNN
+F 1 "Headset In" V 3350 1200 50  0000 C CNN
+F 2 "" H 3250 1200 50  0001 C CNN
+F 3 "~" H 3250 1200 50  0001 C CNN
+	1    3250 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5B8B2B2A
+P 5050 1700
+F 0 "BT1" V 4795 1750 50  0000 C CNN
+F 1 "9V Battery" V 4886 1750 50  0000 C CNN
+F 2 "" V 5050 1760 50  0001 C CNN
+F 3 "~" V 5050 1760 50  0001 C CNN
+	1    5050 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J2
+U 1 1 5B8B2F04
+P 6800 1400
+F 0 "J2" V 6700 1750 50  0000 C CNN
+F 1 "3.5mm Audio In" V 6450 1400 50  0000 C CNN
+F 2 "" H 6800 1400 50  0001 C CNN
+F 3 "~" H 6800 1400 50  0001 C CNN
+	1    6800 1400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J3
+U 1 1 5B8B2F9F
+P 8250 1200
+F 0 "J3" V 8150 1650 50  0000 R CNN
+F 1 "Radio In" V 8350 1350 50  0000 R CNN
+F 2 "" H 8250 1200 50  0001 C CNN
+F 3 "~" H 8250 1200 50  0001 C CNN
+	1    8250 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3000 2950 1400
+Wire Wire Line
+	3050 3000 3050 1400
+Wire Wire Line
+	3150 3000 3150 1400
+Wire Wire Line
+	3250 3000 3250 1400
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5B8B3485
+P 4450 1700
+F 0 "SW1" H 4450 1950 50  0000 C CNN
+F 1 "Power / Input Switch B" H 4300 1500 50  0000 C CNN
+F 2 "" H 4450 1700 50  0001 C CNN
+F 3 "" H 4450 1700 50  0001 C CNN
+	1    4450 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 1 1 5B8B354A
+P 5500 1300
+F 0 "SW2" H 5500 975 50  0000 C CNN
+F 1 "Power / Input Switch A" H 5500 1066 50  0000 C CNN
+F 2 "" H 5500 1300 50  0001 C CNN
+F 3 "" H 5500 1300 50  0001 C CNN
+	1    5500 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 1600 4100 1600
+Wire Wire Line
+	4100 1600 4100 1800
+Wire Wire Line
+	4650 1700 4850 1700
+Wire Wire Line
+	5150 1700 5200 1700
+Wire Wire Line
+	5300 1700 5300 2450
+Wire Wire Line
+	5300 2450 4650 2450
+Wire Wire Line
+	4650 2450 4650 2900
+Wire Wire Line
+	4100 1200 4100 1600
+Connection ~ 4100 1600
+Wire Wire Line
+	4250 1800 4100 1800
+Connection ~ 4100 1800
+Wire Wire Line
+	4100 1800 4100 2050
+Wire Wire Line
+	4100 1200 5300 1200
+Wire Wire Line
+	5200 1700 5200 1400
+Wire Wire Line
+	5200 1400 5300 1400
+Connection ~ 5200 1700
+Wire Wire Line
+	5200 1700 5300 1700
+Wire Wire Line
+	5700 1300 5700 2700
+Wire Wire Line
+	5700 2700 4750 2700
+Wire Wire Line
+	4750 2700 4750 3000
+Wire Wire Line
+	6900 1600 6900 2950
+Wire Wire Line
+	6800 1600 6800 2950
+Wire Wire Line
+	8050 1400 8050 2900
+Wire Wire Line
+	8150 1400 8150 2950
+Wire Wire Line
+	8250 1400 8250 2950
+Wire Wire Line
+	3350 1400 3350 2050
+Wire Wire Line
+	3350 2050 4100 2050
+Wire Wire Line
+	3450 1400 3450 2900
+Wire Wire Line
+	3450 2900 4650 2900
+Connection ~ 4650 2900
+Wire Wire Line
+	4650 2900 4650 3000
+Wire Wire Line
+	4650 2900 6700 2900
+Connection ~ 6700 2900
+Wire Wire Line
+	6700 2900 8050 2900
+Wire Wire Line
+	6700 1600 6700 2900
+Text Label 5850 2900 0    50   ~ 0
+COM
+$Comp
+L Connector:Conn_01x04_Male P1
+U 1 1 5C671BD2
+P 3050 3200
+F 0 "P1" V 3100 3550 50  0000 R CNN
+F 1 "Mates With A1A1J1" V 2950 3500 50  0000 R CNN
+F 2 "" H 3050 3200 50  0001 C CNN
+F 3 "~" H 3050 3200 50  0001 C CNN
+	1    3050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male P2
+U 1 1 5C671C6B
+P 4650 3200
+F 0 "P2" V 4700 3400 50  0000 C CNN
+F 1 "Mates With A1A1J2" V 4550 3150 50  0000 C CNN
+F 2 "" H 4650 3200 50  0001 C CNN
+F 3 "~" H 4650 3200 50  0001 C CNN
+	1    4650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male P4
+U 1 1 5C671CC9
+P 8150 3150
+F 0 "P4" V 8200 3400 50  0000 R CNN
+F 1 "Mates With A1A1J4" V 8050 3450 50  0000 R CNN
+F 2 "" H 8150 3150 50  0001 C CNN
+F 3 "~" H 8150 3150 50  0001 C CNN
+	1    8150 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male P3
+U 1 1 5C671D27
+P 6800 3150
+F 0 "P3" V 6850 3400 50  0000 R CNN
+F 1 "Mates with A1A1J3" V 6700 3400 50  0000 R CNN
+F 2 "" H 6800 3150 50  0001 C CNN
+F 3 "~" H 6800 3150 50  0001 C CNN
+	1    6800 3150
+	0    -1   -1   0   
+$EndComp
+Text Notes 600  7650 0    50   ~ 0
+A1
+$EndSCHEMATC
