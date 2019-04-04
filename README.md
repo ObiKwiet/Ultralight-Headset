@@ -78,9 +78,9 @@ I was going to write up a detailed assembly guide, but at this point the project
 ## Pictures
 
 These are some images of the 1.0 version. 
-![Screenshot](Documentation/IMG_3492.png)
-![Screenshot](Documentation/IMG_3493.png)
-![Screenshot](Documentation/IMG_3494.png)
+![Screenshot](Documentation/IMG_3492.jpg)
+![Screenshot](Documentation/IMG_3493.jpg)
+![Screenshot](Documentation/IMG_3494.jpg)
 
 
 
