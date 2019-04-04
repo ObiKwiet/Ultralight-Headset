@@ -75,6 +75,12 @@ Currently, we don't really have proper wiring diagrams, but these will probably 
 
 I was going to write up a detailed assembly guide, but at this point the project isn't really in a solid enough state to be used by someone who can't figure it out well enough from the drawings. This will have to wait for 2.0. 
 
+## Pictures
+
+These are some images of the 1.0 version. 
+![Screenshot](Documentation/IMG_3492.png)
+![Screenshot](Documentation/IMG_3493.png)
+![Screenshot](Documentation/IMG_3494.png)
 
 
 
