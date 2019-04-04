@@ -64,7 +64,9 @@ In the meantime, I'd be happy to add you to the Fusion360 project if you email m
 
 Certain drawings are maintained on sheets, which has the advantage of being free, and the major disadvantage of not having version control synced with the repository. 
 [Wirelists for A1300](https://docs.google.com/spreadsheets/d/1odUo59O54lUUatiMipqJTk2xvd_l8rzADcac63PmRdw/edit?usp=sharing)
+
 [Partlists](https://docs.google.com/spreadsheets/d/1oErzroamnteU2tq9hoaM70eOOeuBpsWLLE8QT7xZNOo/edit?usp=sharing)
+
 [Drawing Tree](https://docs.google.com/spreadsheets/d/1H3n_jioX6qo1rZ_G6kWBhMTz45Bp03Awh5uix86TeiI/edit?usp=sharing)
 
 KiCad will be used for electrical schematics and PCBs. 
