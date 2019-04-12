@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name conn-wire-pads)(type KiCad)(uri "C:/Downloads/Projects/ULHeadset/Ultralight-Headset/KiCad/SCH1110-2 - IO Module PCB/conn-wire-pads.pretty")(options "")(descr ""))
+  (lib (name CustomParts)(type KiCad)(uri ${KIPRJMOD}/CustomParts.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,845 @@
+EESchema Schematic File Version 4
+LIBS:SCH1110 - IO Module PCB-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Circuit Board Schematic, IO Module"
+Date "2018-08-24"
+Rev "A"
+Comp ""
+Comment1 "Drawing Number: SCH1110"
+Comment2 "Author: Seth Tucker"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5B749509
+P 2000 5700
+F 0 "R1" H 2100 5800 50  0000 L CNN
+F 1 "2k" V 2000 5650 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 1930 5700 50  0001 C CNN
+F 3 "~" H 2000 5700 50  0001 C CNN
+	1    2000 5700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9150 3950 8400 3950
+Wire Wire Line
+	8400 3950 8400 4800
+Wire Wire Line
+	8400 4800 8500 4800
+Wire Wire Line
+	9100 4800 9250 4800
+Wire Wire Line
+	7600 3700 7600 5100
+Wire Wire Line
+	7600 5100 8500 5100
+Wire Wire Line
+	7500 3700 7500 5500
+Wire Wire Line
+	7500 5500 8500 5500
+Wire Wire Line
+	8300 5700 8500 5700
+Wire Wire Line
+	9100 5200 9950 5200
+Wire Wire Line
+	9950 3700 9950 5200
+Wire Wire Line
+	9100 5600 10050 5600
+Wire Wire Line
+	10050 3700 10050 5600
+Text Label 2700 3550 2    50   ~ 0
+RADIO_MONO
+Text Label 8250 5100 2    50   ~ 0
+RIGHT_CH
+Text Label 8100 5500 2    50   ~ 0
+LEFT_CH
+Wire Wire Line
+	9150 3700 9150 3950
+Text Label 8950 3950 2    50   ~ 0
+AUDIO_SELECT
+Text Label 9750 5200 2    50   ~ 0
+R_CH_OUT
+Text Label 9850 5600 2    50   ~ 0
+L_CH_OUT
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5C673D07
+P 9250 3500
+F 0 "J3" V 9190 3312 50  0000 R CNN
+F 1 "Power/Input Switch" V 9350 3800 50  0000 R CNN
+F 2 "conn-wire-pads:WP-75mil-1x02" H 9250 3500 50  0001 C CNN
+F 3 "~" H 9250 3500 50  0001 C CNN
+	1    9250 3500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5C6744BE
+P 7600 3500
+F 0 "J2" V 7540 3312 50  0000 R CNN
+F 1 "3.5mm Audio In" V 7700 3750 50  0000 R CNN
+F 2 "conn-wire-pads:WP-75mil-1x02" H 7600 3500 50  0001 C CNN
+F 3 "~" H 7600 3500 50  0001 C CNN
+	1    7600 3500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 5C674628
+P 10150 3500
+F 0 "J5" V 10090 3212 50  0000 R CNN
+F 1 "Headset Out" V 10250 3700 50  0000 R CNN
+F 2 "conn-wire-pads:WP-75mil-1x04" H 10150 3500 50  0001 C CNN
+F 3 "~" H 10150 3500 50  0001 C CNN
+	1    10150 3500
+	0    1    -1   0   
+$EndComp
+Text Notes 650  7600 0    50   ~ 0
+A1A1
+$Comp
+L CustomParts:MAX4466 U2
+U 1 1 5CAAD3B0
+P 3800 5200
+F 0 "U2" H 3650 5600 50  0000 L CNN
+F 1 "MAX4466" H 3950 5000 50  0000 L CNN
+F 2 "digikey-footprints:SOT-353" H 3700 5150 50  0001 C CNN
+F 3 "" H 3700 5150 50  0001 C CNN
+	1    3800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5CAB0049
+P 1650 5650
+F 0 "C1" V 1800 5700 50  0000 L CNN
+F 1 "10u" V 1800 5500 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1688 5500 50  0001 C CNN
+F 3 "~" H 1650 5650 50  0001 C CNN
+	1    1650 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR07
+U 1 1 5CAB1C0E
+P 3850 5600
+F 0 "#PWR07" H 3850 5350 50  0001 C CNN
+F 1 "Earth" H 3850 5450 50  0001 C CNN
+F 2 "" H 3850 5600 50  0001 C CNN
+F 3 "~" H 3850 5600 50  0001 C CNN
+	1    3850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5500 3850 5600
+Wire Wire Line
+	9250 3700 9250 4800
+$Comp
+L power:+5V #PWR03
+U 1 1 5CABA565
+P 2800 4450
+F 0 "#PWR03" H 2800 4300 50  0001 C CNN
+F 1 "+5V" H 2815 4623 50  0000 C CNN
+F 2 "" H 2800 4450 50  0001 C CNN
+F 3 "" H 2800 4450 50  0001 C CNN
+	1    2800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5CABBD0C
+P 2400 5400
+F 0 "C2" H 2450 5250 50  0000 L CNN
+F 1 "10n" H 2450 5550 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 2438 5250 50  0001 C CNN
+F 3 "~" H 2400 5400 50  0001 C CNN
+	1    2400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6750 1650 5800
+Wire Wire Line
+	1650 6750 2400 6750
+Wire Wire Line
+	2000 5850 2000 6300
+Wire Wire Line
+	1650 5500 1650 5350
+Wire Wire Line
+	1650 5350 2000 5350
+Wire Wire Line
+	2000 5350 2000 5550
+Wire Wire Line
+	2400 5550 2400 6750
+Wire Wire Line
+	3500 5300 3250 5300
+$Comp
+L Device:C C4
+U 1 1 5CAC002E
+P 3800 6550
+F 0 "C4" V 3650 6600 50  0000 L CNN
+F 1 "100p" V 3950 6500 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 3838 6400 50  0001 C CNN
+F 3 "~" H 3800 6550 50  0001 C CNN
+	1    3800 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5CAC0652
+P 3550 6000
+F 0 "R7" V 3450 5950 50  0000 L CNN
+F 1 "22k" V 3550 5950 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 3480 6000 50  0001 C CNN
+F 3 "~" H 3550 6000 50  0001 C CNN
+	1    3550 6000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CAC0C51
+P 3250 6850
+F 0 "R6" H 3050 6950 50  0000 L CNN
+F 1 "1k" V 3250 6800 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 3180 6850 50  0001 C CNN
+F 3 "~" H 3250 6850 50  0001 C CNN
+	1    3250 6850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3400 6000 3250 6000
+Wire Wire Line
+	3250 6000 3250 5300
+Wire Wire Line
+	4550 6550 3950 6550
+Wire Wire Line
+	3650 6550 3250 6550
+$Comp
+L Device:C C3
+U 1 1 5CAC865D
+P 3250 7250
+F 0 "C3" H 3050 7150 50  0000 L CNN
+F 1 "1u" H 3050 7350 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 3288 7100 50  0001 C CNN
+F 3 "~" H 3250 7250 50  0001 C CNN
+	1    3250 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6550 3250 6700
+Connection ~ 3250 6550
+Wire Wire Line
+	3250 7000 3250 7100
+$Comp
+L power:Earth #PWR05
+U 1 1 5CACD96C
+P 3250 7500
+F 0 "#PWR05" H 3250 7250 50  0001 C CNN
+F 1 "Earth" H 3250 7350 50  0001 C CNN
+F 2 "" H 3250 7500 50  0001 C CNN
+F 3 "~" H 3250 7500 50  0001 C CNN
+	1    3250 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 7500 3250 7400
+$Comp
+L Device:R R4
+U 1 1 5CACF5BA
+P 2800 4750
+F 0 "R4" H 2900 4850 50  0000 L CNN
+F 1 "1M" V 2800 4700 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 2730 4750 50  0001 C CNN
+F 3 "~" H 2800 4750 50  0001 C CNN
+	1    2800 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CACFF5C
+P 2800 5450
+F 0 "R5" H 2900 5550 50  0000 L CNN
+F 1 "1M" V 2800 5400 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 2730 5450 50  0001 C CNN
+F 3 "~" H 2800 5450 50  0001 C CNN
+	1    2800 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR04
+U 1 1 5CAD2E89
+P 2800 5700
+F 0 "#PWR04" H 2800 5450 50  0001 C CNN
+F 1 "Earth" H 2800 5550 50  0001 C CNN
+F 2 "" H 2800 5700 50  0001 C CNN
+F 3 "~" H 2800 5700 50  0001 C CNN
+	1    2800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5600 2800 5700
+$Comp
+L power:+5V #PWR06
+U 1 1 5CAD389A
+P 3850 4800
+F 0 "#PWR06" H 3850 4650 50  0001 C CNN
+F 1 "+5V" H 3865 4973 50  0000 C CNN
+F 2 "" H 3850 4800 50  0001 C CNN
+F 3 "" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4900 3850 4800
+Wire Wire Line
+	2800 5300 2800 5100
+Connection ~ 2800 5100
+Wire Wire Line
+	2800 5100 2800 4900
+Wire Wire Line
+	2800 4450 2800 4600
+Text GLabel 10250 4150 3    50   Input ~ 0
+MIC
+Wire Wire Line
+	10250 3700 10250 4150
+Text GLabel 10150 4400 3    50   Input ~ 0
+PTT
+Wire Wire Line
+	10150 3700 10150 4400
+Text GLabel 2000 6300 3    50   Input ~ 0
+PTT
+Text GLabel 2400 7050 3    50   Input ~ 0
+MIC
+Connection ~ 2400 6750
+Wire Wire Line
+	2400 5100 2400 5250
+Wire Wire Line
+	2400 5100 2800 5100
+$Comp
+L Device:R R9
+U 1 1 5CAEDA29
+P 5050 5200
+F 0 "R9" V 4950 5100 50  0000 L CNN
+F 1 "10k" V 5050 5150 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 4980 5200 50  0001 C CNN
+F 3 "~" H 5050 5200 50  0001 C CNN
+	1    5050 5200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5CAEE66F
+P 5050 4750
+F 0 "R8" V 4950 4650 50  0000 L CNN
+F 1 "10k" V 5050 4700 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 4980 4750 50  0001 C CNN
+F 3 "~" H 5050 4750 50  0001 C CNN
+	1    5050 4750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 3550 2850 3550
+Wire Wire Line
+	5200 4750 5350 4750
+Wire Wire Line
+	5350 4750 5350 5200
+Wire Wire Line
+	5350 5200 5200 5200
+$Comp
+L CustomParts:5532 U1
+U 2 1 5CAFEB30
+P 4050 3650
+F 0 "U1" H 3850 4000 50  0000 C CNN
+F 1 "5532" H 4250 3500 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-8_W3.9mm" H 4400 3500 50  0001 C CNN
+F 3 "" H 4400 3500 50  0001 C CNN
+	2    4050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CustomParts:5532 U1
+U 3 1 5CAFEBB1
+P 4000 3650
+F 0 "U1" H 3600 4000 50  0000 L CNN
+F 1 "5532" H 4150 3500 50  0000 L CNN
+F 2 "digikey-footprints:SOIC-8_W3.9mm" H 4350 3500 50  0001 C CNN
+F 3 "" H 4350 3500 50  0001 C CNN
+	3    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5CB04BC4
+P 5800 5750
+F 0 "R11" V 5700 5650 50  0000 L CNN
+F 1 "100" V 5800 5650 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 5730 5750 50  0001 C CNN
+F 3 "~" H 5800 5750 50  0001 C CNN
+	1    5800 5750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6350 5300 6350 5750
+Wire Wire Line
+	5950 5750 6350 5750
+Connection ~ 5350 5200
+$Comp
+L Device:R R10
+U 1 1 5CB0A8C3
+P 5350 6050
+F 0 "R10" H 5420 6096 50  0000 L CNN
+F 1 "Open" V 5350 5950 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 5280 6050 50  0001 C CNN
+F 3 "~" H 5350 6050 50  0001 C CNN
+	1    5350 6050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR011
+U 1 1 5CB0FBF4
+P 5350 6300
+F 0 "#PWR011" H 5350 6050 50  0001 C CNN
+F 1 "Earth" H 5350 6150 50  0001 C CNN
+F 2 "" H 5350 6300 50  0001 C CNN
+F 3 "~" H 5350 6300 50  0001 C CNN
+	1    5350 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 6200 5350 6300
+Wire Wire Line
+	2400 6750 2400 7050
+Wire Wire Line
+	2800 5100 3500 5100
+Wire Wire Line
+	8300 5300 8300 5700
+Wire Wire Line
+	4550 5200 4250 5200
+$Comp
+L Device:R R2
+U 1 1 5CB3A93B
+P 3250 3300
+F 0 "R2" H 3320 3346 50  0000 L CNN
+F 1 "10k" V 3250 3250 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 3180 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CB3FBC0
+P 3250 3850
+F 0 "R3" H 3320 3896 50  0000 L CNN
+F 1 "10k" V 3250 3800 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 3180 3850 50  0001 C CNN
+F 3 "~" H 3250 3850 50  0001 C CNN
+	1    3250 3850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4400 3650 4550 3650
+Wire Wire Line
+	4550 3650 4550 4100
+Wire Wire Line
+	3600 4100 3600 3750
+Wire Wire Line
+	3600 3750 3700 3750
+Wire Wire Line
+	3250 3150 3250 3050
+Wire Wire Line
+	3250 3050 4000 3050
+Wire Wire Line
+	4000 3050 4000 3350
+Wire Wire Line
+	4000 3950 4000 4250
+Wire Wire Line
+	4000 4250 3250 4250
+Wire Wire Line
+	3250 4250 3250 4000
+Wire Wire Line
+	3250 3450 3250 3550
+Wire Wire Line
+	3700 3550 3250 3550
+Connection ~ 3250 3550
+Wire Wire Line
+	3250 3550 3250 3700
+$Comp
+L CustomParts:uA78M05 U3
+U 1 1 5CB59A70
+P 5100 1650
+F 0 "U3" H 4800 1900 50  0000 C CNN
+F 1 "uA78M05" H 5300 1400 50  0000 C CNN
+F 2 "digikey-footprints:Trans_SOT-223-4" H 5100 1650 50  0001 C CNN
+F 3 "" H 5100 1650 50  0001 C CNN
+	1    5100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5CB5BBBA
+P 5700 1900
+F 0 "C6" H 5550 2050 50  0000 L CNN
+F 1 ".1u" H 5500 1750 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5738 1750 50  0001 C CNN
+F 3 "~" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR09
+U 1 1 5CB5E74D
+P 5100 2300
+F 0 "#PWR09" H 5100 2050 50  0001 C CNN
+F 1 "Earth" H 5100 2150 50  0001 C CNN
+F 2 "" H 5100 2300 50  0001 C CNN
+F 3 "~" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1600 5700 1600
+Wire Wire Line
+	5700 1600 5700 1750
+Wire Wire Line
+	4650 1600 4550 1600
+Wire Wire Line
+	4550 1600 4550 1750
+Wire Wire Line
+	5100 1950 5100 2150
+$Comp
+L Device:C C5
+U 1 1 5CB6F7D1
+P 4550 1900
+F 0 "C5" H 4650 2050 50  0000 L CNN
+F 1 ".33u" H 4600 1750 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 4588 1750 50  0001 C CNN
+F 3 "~" H 4550 1900 50  0001 C CNN
+	1    4550 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 2050 4550 2150
+Wire Wire Line
+	4550 2150 5100 2150
+Connection ~ 5100 2150
+Wire Wire Line
+	5100 2150 5100 2300
+Wire Wire Line
+	5700 2050 5700 2150
+Wire Wire Line
+	5700 2150 5100 2150
+$Comp
+L power:+5V #PWR012
+U 1 1 5CB78869
+P 7400 1400
+F 0 "#PWR012" H 7400 1250 50  0001 C CNN
+F 1 "+5V" H 7415 1573 50  0000 C CNN
+F 2 "" H 7400 1400 50  0001 C CNN
+F 3 "" H 7400 1400 50  0001 C CNN
+	1    7400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR014
+U 1 1 5CB788DD
+P 8250 1400
+F 0 "#PWR014" H 8250 1250 50  0001 C CNN
+F 1 "+9V" H 8265 1573 50  0000 C CNN
+F 2 "" H 8250 1400 50  0001 C CNN
+F 3 "" H 8250 1400 50  0001 C CNN
+	1    8250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5CB78A4C
+P 7400 1700
+F 0 "C7" H 7500 1850 50  0000 L CNN
+F 1 ".1u" H 7500 1550 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 7438 1550 50  0001 C CNN
+F 3 "~" H 7400 1700 50  0001 C CNN
+	1    7400 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5CB7B05D
+P 8250 1700
+F 0 "C8" H 8350 1850 50  0000 L CNN
+F 1 ".1u" H 8350 1550 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 8288 1550 50  0001 C CNN
+F 3 "~" H 8250 1700 50  0001 C CNN
+	1    8250 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR013
+U 1 1 5CB7D71C
+P 7400 2000
+F 0 "#PWR013" H 7400 1750 50  0001 C CNN
+F 1 "Earth" H 7400 1850 50  0001 C CNN
+F 2 "" H 7400 2000 50  0001 C CNN
+F 3 "~" H 7400 2000 50  0001 C CNN
+	1    7400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR015
+U 1 1 5CB7FD1D
+P 8250 2000
+F 0 "#PWR015" H 8250 1750 50  0001 C CNN
+F 1 "Earth" H 8250 1850 50  0001 C CNN
+F 2 "" H 8250 2000 50  0001 C CNN
+F 3 "~" H 8250 2000 50  0001 C CNN
+	1    8250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1400 8250 1550
+Wire Wire Line
+	7400 1400 7400 1550
+Wire Wire Line
+	7400 1850 7400 2000
+Wire Wire Line
+	8250 1850 8250 2000
+Text Notes 7050 2200 0    50   ~ 0
+Place close to U2
+$Comp
+L power:+5V #PWR010
+U 1 1 5CB9BD33
+P 5700 1450
+F 0 "#PWR010" H 5700 1300 50  0001 C CNN
+F 1 "+5V" H 5715 1623 50  0000 C CNN
+F 2 "" H 5700 1450 50  0001 C CNN
+F 3 "" H 5700 1450 50  0001 C CNN
+	1    5700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1450 5700 1600
+$Comp
+L power:+9V #PWR08
+U 1 1 5CB9E7B8
+P 4550 1450
+F 0 "#PWR08" H 4550 1300 50  0001 C CNN
+F 1 "+9V" H 4565 1623 50  0000 C CNN
+F 2 "" H 4550 1450 50  0001 C CNN
+F 3 "" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1450 4550 1600
+$Comp
+L power:+9V #PWR01
+U 1 1 5CBA12F3
+P 3250 2900
+F 0 "#PWR01" H 3250 2750 50  0001 C CNN
+F 1 "+9V" H 3265 3073 50  0000 C CNN
+F 2 "" H 3250 2900 50  0001 C CNN
+F 3 "" H 3250 2900 50  0001 C CNN
+	1    3250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2900 3250 3050
+$Comp
+L power:Earth #PWR02
+U 1 1 5CBA3F4A
+P 3250 4400
+F 0 "#PWR02" H 3250 4150 50  0001 C CNN
+F 1 "Earth" H 3250 4250 50  0001 C CNN
+F 2 "" H 3250 4400 50  0001 C CNN
+F 3 "~" H 3250 4400 50  0001 C CNN
+	1    3250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4250 3250 4400
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5CBA9D97
+P 9700 950
+F 0 "J4" V 9640 762 50  0000 R CNN
+F 1 "Power In" V 9800 1200 50  0000 R CNN
+F 2 "conn-wire-pads:WP-75mil-1x02" H 9700 950 50  0001 C CNN
+F 3 "~" H 9700 950 50  0001 C CNN
+	1    9700 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+9V #PWR016
+U 1 1 5CBACC7F
+P 9200 1150
+F 0 "#PWR016" H 9200 1000 50  0001 C CNN
+F 1 "+9V" H 9215 1323 50  0000 C CNN
+F 2 "" H 9200 1150 50  0001 C CNN
+F 3 "" H 9200 1150 50  0001 C CNN
+	1    9200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR017
+U 1 1 5CBBDF98
+P 9800 1450
+F 0 "#PWR017" H 9800 1200 50  0001 C CNN
+F 1 "Earth" H 9800 1300 50  0001 C CNN
+F 2 "" H 9800 1450 50  0001 C CNN
+F 3 "~" H 9800 1450 50  0001 C CNN
+	1    9800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1150 9200 1350
+Wire Wire Line
+	9200 1350 9700 1350
+Wire Wire Line
+	9700 1350 9700 1150
+Wire Wire Line
+	9800 1150 9800 1450
+Wire Wire Line
+	5350 5750 5350 5900
+Wire Wire Line
+	5350 5750 5650 5750
+Connection ~ 5350 5750
+Wire Wire Line
+	5350 5400 5350 5750
+Wire Wire Line
+	5350 5200 5500 5200
+Wire Wire Line
+	5500 5400 5350 5400
+Wire Wire Line
+	6200 5300 6350 5300
+$Comp
+L CustomParts:5532 U1
+U 1 1 5CAFEAB7
+P 5800 5300
+F 0 "U1" H 5700 5600 50  0000 C CNN
+F 1 "5532" H 6000 5100 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-8_W3.9mm" H 6150 5150 50  0001 C CNN
+F 3 "" H 6150 5150 50  0001 C CNN
+	1    5800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5CB3548C
+P 6750 5300
+F 0 "C9" V 6600 5350 50  0000 L CNN
+F 1 "10u" V 6900 5250 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6788 5150 50  0001 C CNN
+F 3 "~" H 6750 5300 50  0001 C CNN
+	1    6750 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 5300 6350 5300
+Connection ~ 6350 5300
+Wire Wire Line
+	8300 5300 8500 5300
+Wire Wire Line
+	4550 5200 4900 5200
+Connection ~ 4550 5200
+Wire Wire Line
+	3250 6000 3250 6550
+Connection ~ 3250 6000
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 5CB65E6D
+P 4150 6000
+F 0 "RV1" V 4250 5800 50  0000 C CNN
+F 1 "100k" V 4150 6000 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3224X_Vertical" H 4150 6000 50  0001 C CNN
+F 3 "~" H 4150 6000 50  0001 C CNN
+	1    4150 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 5200 4550 6000
+Wire Wire Line
+	4300 6000 4350 6000
+Connection ~ 4550 6000
+Wire Wire Line
+	4550 6000 4550 6550
+Wire Wire Line
+	4000 6000 3700 6000
+Wire Wire Line
+	4150 6150 4150 6200
+Wire Wire Line
+	4150 6200 4350 6200
+Wire Wire Line
+	4350 6200 4350 6000
+Connection ~ 4350 6000
+Wire Wire Line
+	4350 6000 4550 6000
+Wire Wire Line
+	6900 5300 8300 5300
+Connection ~ 8300 5300
+$Comp
+L CustomParts:TXS2 K1
+U 1 1 5CB95A9F
+P 8800 5200
+F 0 "K1" V 8100 5200 50  0000 C CNN
+F 1 "TXS2" V 9500 5200 50  0000 C CNN
+F 2 "CustomParts:TXS2-THT" H 9850 4850 50  0001 C CNN
+F 3 "http://www.azettler.com/pdfs/az850.pdf" H 8600 5200 50  0001 C CNN
+	1    8800 5200
+	0    -1   1    0   
+$EndComp
+Text Notes 7950 2200 0    50   ~ 0
+Place close to U1\n
+$Comp
+L Device:C C10
+U 1 1 5CB40BA8
+P 3000 3550
+F 0 "C10" V 3150 3600 50  0000 L CNN
+F 1 "10u" V 3150 3400 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3038 3400 50  0001 C CNN
+F 3 "~" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3250 3050
+Connection ~ 3250 4250
+Connection ~ 2000 5350
+Wire Wire Line
+	2100 2600 2100 3550
+Wire Wire Line
+	2000 2600 2000 5350
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5C67457B
+P 2100 2400
+F 0 "J1" V 2040 2212 50  0000 R CNN
+F 1 "Radio In" V 2200 2500 50  0000 R CNN
+F 2 "conn-wire-pads:WP-75mil-1x02" H 2100 2400 50  0001 C CNN
+F 3 "~" H 2100 2400 50  0001 C CNN
+	1    2100 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5CB7B538
+P 4200 4100
+F 0 "R12" V 4100 4000 50  0000 L CNN
+F 1 "100" V 4200 4000 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 4130 4100 50  0001 C CNN
+F 3 "~" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4550 4100 4350 4100
+Wire Wire Line
+	4050 4100 3600 4100
+Wire Wire Line
+	3150 3550 3250 3550
+Wire Wire Line
+	4550 4100 4550 4750
+Connection ~ 4550 4100
+Wire Wire Line
+	4550 4750 4900 4750
+$EndSCHEMATC
