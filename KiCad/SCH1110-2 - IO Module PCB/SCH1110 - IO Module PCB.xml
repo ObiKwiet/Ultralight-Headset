@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Downloads\Projects\ULHeadset\Ultralight-Headset\KiCad\SCH1110-2 - IO Module PCB\SCH1110 - IO Module PCB.sch</source>
+    <date>4/15/2019 11:27:28 AM</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Circuit Board Schematic, IO Module</title>
+        <company/>
+        <rev>A</rev>
+        <date>2018-08-24</date>
+        <source>SCH1110 - IO Module PCB.sch</source>
+        <comment number="1" value="Drawing Number: SCH1110"/>
+        <comment number="2" value="Author: Seth Tucker"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>2k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B749509</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Power/Input Switch</value>
+      <footprint>conn-wire-pads:WP-75mil-1x02</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C673D07</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>3.5mm Audio In</value>
+      <footprint>conn-wire-pads:WP-75mil-1x02</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6744BE</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Headset Out</value>
+      <footprint>conn-wire-pads:WP-75mil-1x04</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x04_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C674628</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MAX4466</value>
+      <footprint>digikey-footprints:SOT-353</footprint>
+      <libsource lib="CustomParts" part="MAX4466" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAAD3B0</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CABBD0C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100p</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC002E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC0652</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC0C51</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC865D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CACF5BA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CACFF5C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAEDA29</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAEE66F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>5532</value>
+      <footprint>digikey-footprints:SOIC-8_W3.9mm</footprint>
+      <libsource lib="CustomParts" part="5532" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAFEB30</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB04BC4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>Open</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB0A8C3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB3A93B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB3FBC0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>uA78M05</value>
+      <footprint>digikey-footprints:Trans_SOT-223-4</footprint>
+      <libsource lib="CustomParts" part="uA78M05" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB59A70</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.1u</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB5BBBA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.33u</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB6F7D1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>.1u</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB78A4C</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>.1u</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB7B05D</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3224X_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R_POT_TRIM-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB65E6D</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>TXS2</value>
+      <footprint>CustomParts:TXS2-THT</footprint>
+      <datasheet>http://www.azettler.com/pdfs/az850.pdf</datasheet>
+      <libsource lib="CustomParts" part="TXS2" description="American Zettler, Microminiature Polarised Dual Pole Relay Bistable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB95A9F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Radio In</value>
+      <footprint>conn-wire-pads:WP-75mil-1x02</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C67457B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB7B538</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>Open</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC13127</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC1A748</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC2CF65</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC38145</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Power In</value>
+      <footprint>conn-wire-pads:WP-75mil-1x02</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x02_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB32E57</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CustomParts" part="5532">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">5532</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="1-" type="input"/>
+        <pin num="3" name="1+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="2+" type="input"/>
+        <pin num="6" name="2-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CustomParts" part="MAX4466">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX4466</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="G" type="power_in"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CustomParts" part="TXS2">
+      <description>American Zettler, Microminiature Polarised Dual Pole Relay Bistable</description>
+      <docs>http://www.azettler.com/pdfs/az850.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*FRT5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">TXS2</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_FRT5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CustomParts" part="uA78M05">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">uA78M05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="output"/>
+        <pin num="2" name="COM" type="output"/>
+        <pin num="3" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SCH1110---IO-Module-PCB-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SCH1110---IO-Module-PCB-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x02_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SCH1110---IO-Module-PCB-rescue" part="Conn_01x04_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SCH1110---IO-Module-PCB-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SCH1110---IO-Module-PCB-rescue" part="R_POT_TRIM-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CustomParts">
+      <uri>C:\Downloads\Projects\ULHeadset\Ultralight-Headset\KiCad\SCH1110-2 - IO Module PCB/CustomParts.lib</uri>
+    </library>
+    <library logical="SCH1110---IO-Module-PCB-rescue">
+      <uri>C:\Downloads\Projects\ULHeadset\Ultralight-Headset\KiCad\SCH1110-2 - IO Module PCB/SCH1110 - IO Module PCB-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Earth">
+      <node ref="R3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R10-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C9-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R12-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="9" name="/AUDIO_SELECT">
+      <node ref="K1" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(C9-Pad2)">
+      <node ref="K1" pin="8"/>
+      <node ref="K1" pin="5"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C2-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad1)">
+      <node ref="K1" pin="12"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C4-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="15" name="Net-(C4-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="17" name="/RIGHT_CH">
+      <node ref="J2" pin="1"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="18" name="/RADIO_MONO">
+      <node ref="J1" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="19" name="/LEFT_CH">
+      <node ref="J2" pin="2"/>
+      <node ref="K1" pin="10"/>
+    </net>
+    <net code="20" name="/R_CH_OUT">
+      <node ref="J5" pin="4"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="21" name="/L_CH_OUT">
+      <node ref="J5" pin="3"/>
+      <node ref="K1" pin="9"/>
+    </net>
+    <net code="22" name="Net-(R12-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="23" name="+9V">
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="24" name="MIC">
+      <node ref="C2" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="25" name="PTT">
+      <node ref="R1" pin="1"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>
