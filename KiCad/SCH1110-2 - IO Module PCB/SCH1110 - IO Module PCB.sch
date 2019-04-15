@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R1
+L SCH1110---IO-Module-PCB-rescue:R-Device R1
 U 1 1 5B749509
 P 2000 5700
 F 0 "R1" H 2100 5800 50  0000 L CNN
@@ -59,14 +59,12 @@ Text Label 8100 5500 2    50   ~ 0
 LEFT_CH
 Wire Wire Line
 	9150 3700 9150 3950
-Text Label 8950 3950 2    50   ~ 0
-AUDIO_SELECT
 Text Label 9750 5200 2    50   ~ 0
 R_CH_OUT
 Text Label 9850 5600 2    50   ~ 0
 L_CH_OUT
 $Comp
-L Connector:Conn_01x02_Female J3
+L SCH1110---IO-Module-PCB-rescue:Conn_01x02_Female-Connector J3
 U 1 1 5C673D07
 P 9250 3500
 F 0 "J3" V 9190 3312 50  0000 R CNN
@@ -77,7 +75,7 @@ F 3 "~" H 9250 3500 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J2
+L SCH1110---IO-Module-PCB-rescue:Conn_01x02_Female-Connector J2
 U 1 1 5C6744BE
 P 7600 3500
 F 0 "J2" V 7540 3312 50  0000 R CNN
@@ -88,7 +86,7 @@ F 3 "~" H 7600 3500 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J5
+L SCH1110---IO-Module-PCB-rescue:Conn_01x04_Female-Connector J5
 U 1 1 5C674628
 P 10150 3500
 F 0 "J5" V 10090 3212 50  0000 R CNN
@@ -112,7 +110,7 @@ F 3 "" H 3700 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR07
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR07
 U 1 1 5CAB1C0E
 P 3850 5600
 F 0 "#PWR07" H 3850 5350 50  0001 C CNN
@@ -127,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 3700 9250 4800
 $Comp
-L power:+5V #PWR03
+L SCH1110---IO-Module-PCB-rescue:+5V-power #PWR03
 U 1 1 5CABA565
 P 2800 4450
 F 0 "#PWR03" H 2800 4300 50  0001 C CNN
@@ -138,7 +136,7 @@ F 3 "" H 2800 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L SCH1110---IO-Module-PCB-rescue:C-Device C2
 U 1 1 5CABBD0C
 P 2400 5400
 F 0 "C2" H 2450 5250 50  0000 L CNN
@@ -165,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5300 3250 5300
 $Comp
-L Device:C C4
+L SCH1110---IO-Module-PCB-rescue:C-Device C4
 U 1 1 5CAC002E
 P 3800 6550
 F 0 "C4" V 3650 6600 50  0000 L CNN
@@ -176,7 +174,7 @@ F 3 "~" H 3800 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R7
+L SCH1110---IO-Module-PCB-rescue:R-Device R7
 U 1 1 5CAC0652
 P 3550 6000
 F 0 "R7" V 3450 5950 50  0000 L CNN
@@ -187,7 +185,7 @@ F 3 "~" H 3550 6000 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R6
+L SCH1110---IO-Module-PCB-rescue:R-Device R6
 U 1 1 5CAC0C51
 P 3250 6850
 F 0 "R6" H 3050 6950 50  0000 L CNN
@@ -206,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 6550 3250 6550
 $Comp
-L Device:C C3
+L SCH1110---IO-Module-PCB-rescue:C-Device C3
 U 1 1 5CAC865D
 P 3250 7250
 F 0 "C3" H 3050 7150 50  0000 L CNN
@@ -222,7 +220,7 @@ Connection ~ 3250 6550
 Wire Wire Line
 	3250 7000 3250 7100
 $Comp
-L power:Earth #PWR05
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR05
 U 1 1 5CACD96C
 P 3250 7500
 F 0 "#PWR05" H 3250 7250 50  0001 C CNN
@@ -235,7 +233,7 @@ $EndComp
 Wire Wire Line
 	3250 7500 3250 7400
 $Comp
-L Device:R R4
+L SCH1110---IO-Module-PCB-rescue:R-Device R4
 U 1 1 5CACF5BA
 P 2800 4750
 F 0 "R4" H 2900 4850 50  0000 L CNN
@@ -246,7 +244,7 @@ F 3 "~" H 2800 4750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R5
+L SCH1110---IO-Module-PCB-rescue:R-Device R5
 U 1 1 5CACFF5C
 P 2800 5450
 F 0 "R5" H 2900 5550 50  0000 L CNN
@@ -257,7 +255,7 @@ F 3 "~" H 2800 5450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR04
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR04
 U 1 1 5CAD2E89
 P 2800 5700
 F 0 "#PWR04" H 2800 5450 50  0001 C CNN
@@ -270,7 +268,7 @@ $EndComp
 Wire Wire Line
 	2800 5600 2800 5700
 $Comp
-L power:+5V #PWR06
+L SCH1110---IO-Module-PCB-rescue:+5V-power #PWR06
 U 1 1 5CAD389A
 P 3850 4800
 F 0 "#PWR06" H 3850 4650 50  0001 C CNN
@@ -307,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 5100 2800 5100
 $Comp
-L Device:R R9
+L SCH1110---IO-Module-PCB-rescue:R-Device R9
 U 1 1 5CAEDA29
 P 5050 5200
 F 0 "R9" V 4950 5100 50  0000 L CNN
@@ -318,7 +316,7 @@ F 3 "~" H 5050 5200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R8
+L SCH1110---IO-Module-PCB-rescue:R-Device R8
 U 1 1 5CAEE66F
 P 5050 4750
 F 0 "R8" V 4950 4650 50  0000 L CNN
@@ -359,7 +357,7 @@ F 3 "" H 4350 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L SCH1110---IO-Module-PCB-rescue:R-Device R11
 U 1 1 5CB04BC4
 P 5800 5750
 F 0 "R11" V 5700 5650 50  0000 L CNN
@@ -375,7 +373,7 @@ Wire Wire Line
 	5950 5750 6350 5750
 Connection ~ 5350 5200
 $Comp
-L Device:R R10
+L SCH1110---IO-Module-PCB-rescue:R-Device R10
 U 1 1 5CB0A8C3
 P 5350 6050
 F 0 "R10" H 5420 6096 50  0000 L CNN
@@ -386,7 +384,7 @@ F 3 "~" H 5350 6050 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR011
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR011
 U 1 1 5CB0FBF4
 P 5350 6750
 F 0 "#PWR011" H 5350 6500 50  0001 C CNN
@@ -407,7 +405,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5200 4250 5200
 $Comp
-L Device:R R2
+L SCH1110---IO-Module-PCB-rescue:R-Device R2
 U 1 1 5CB3A93B
 P 3250 3300
 F 0 "R2" H 3320 3346 50  0000 L CNN
@@ -418,7 +416,7 @@ F 3 "~" H 3250 3300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R3
+L SCH1110---IO-Module-PCB-rescue:R-Device R3
 U 1 1 5CB3FBC0
 P 3250 3850
 F 0 "R3" H 3320 3896 50  0000 L CNN
@@ -463,7 +461,7 @@ F 3 "" H 5100 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L SCH1110---IO-Module-PCB-rescue:C-Device C6
 U 1 1 5CB5BBBA
 P 5700 1900
 F 0 "C6" H 5550 2050 50  0000 L CNN
@@ -474,7 +472,7 @@ F 3 "~" H 5700 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR09
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR09
 U 1 1 5CB5E74D
 P 5100 2300
 F 0 "#PWR09" H 5100 2050 50  0001 C CNN
@@ -495,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 1950 5100 2150
 $Comp
-L Device:C C5
+L SCH1110---IO-Module-PCB-rescue:C-Device C5
 U 1 1 5CB6F7D1
 P 4550 1900
 F 0 "C5" H 4650 2050 50  0000 L CNN
@@ -517,7 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2150 5100 2150
 $Comp
-L power:+5V #PWR012
+L SCH1110---IO-Module-PCB-rescue:+5V-power #PWR012
 U 1 1 5CB78869
 P 7400 1400
 F 0 "#PWR012" H 7400 1250 50  0001 C CNN
@@ -528,7 +526,7 @@ F 3 "" H 7400 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR014
+L SCH1110---IO-Module-PCB-rescue:+9V-power #PWR014
 U 1 1 5CB788DD
 P 8250 1400
 F 0 "#PWR014" H 8250 1250 50  0001 C CNN
@@ -539,7 +537,7 @@ F 3 "" H 8250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L SCH1110---IO-Module-PCB-rescue:C-Device C7
 U 1 1 5CB78A4C
 P 7400 1700
 F 0 "C7" H 7500 1850 50  0000 L CNN
@@ -550,7 +548,7 @@ F 3 "~" H 7400 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C8
+L SCH1110---IO-Module-PCB-rescue:C-Device C8
 U 1 1 5CB7B05D
 P 8250 1700
 F 0 "C8" H 8350 1850 50  0000 L CNN
@@ -561,7 +559,7 @@ F 3 "~" H 8250 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR013
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR013
 U 1 1 5CB7D71C
 P 7400 2000
 F 0 "#PWR013" H 7400 1750 50  0001 C CNN
@@ -572,7 +570,7 @@ F 3 "~" H 7400 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR015
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR015
 U 1 1 5CB7FD1D
 P 8250 2000
 F 0 "#PWR015" H 8250 1750 50  0001 C CNN
@@ -593,7 +591,7 @@ Wire Wire Line
 Text Notes 7050 2200 0    50   ~ 0
 Place close to U2
 $Comp
-L power:+5V #PWR010
+L SCH1110---IO-Module-PCB-rescue:+5V-power #PWR010
 U 1 1 5CB9BD33
 P 5700 1450
 F 0 "#PWR010" H 5700 1300 50  0001 C CNN
@@ -606,7 +604,7 @@ $EndComp
 Wire Wire Line
 	5700 1450 5700 1600
 $Comp
-L power:+9V #PWR08
+L SCH1110---IO-Module-PCB-rescue:+9V-power #PWR08
 U 1 1 5CB9E7B8
 P 4550 1450
 F 0 "#PWR08" H 4550 1300 50  0001 C CNN
@@ -619,7 +617,7 @@ $EndComp
 Wire Wire Line
 	4550 1450 4550 1600
 $Comp
-L power:+9V #PWR01
+L SCH1110---IO-Module-PCB-rescue:+9V-power #PWR01
 U 1 1 5CBA12F3
 P 4000 3050
 F 0 "#PWR01" H 4000 2900 50  0001 C CNN
@@ -630,7 +628,7 @@ F 3 "" H 4000 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR02
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR02
 U 1 1 5CBA3F4A
 P 3250 4400
 F 0 "#PWR02" H 3250 4150 50  0001 C CNN
@@ -643,46 +641,16 @@ $EndComp
 Wire Wire Line
 	3250 4250 3250 4400
 $Comp
-L Connector:Conn_01x02_Female J4
-U 1 1 5CBA9D97
-P 9700 950
-F 0 "J4" V 9640 762 50  0000 R CNN
-F 1 "Power In" V 9800 1200 50  0000 R CNN
-F 2 "conn-wire-pads:WP-75mil-1x02" H 9700 950 50  0001 C CNN
-F 3 "~" H 9700 950 50  0001 C CNN
-	1    9700 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+9V #PWR016
+L SCH1110---IO-Module-PCB-rescue:+9V-power #PWR016
 U 1 1 5CBACC7F
-P 9200 1150
-F 0 "#PWR016" H 9200 1000 50  0001 C CNN
-F 1 "+9V" H 9215 1323 50  0000 C CNN
-F 2 "" H 9200 1150 50  0001 C CNN
-F 3 "" H 9200 1150 50  0001 C CNN
-	1    9200 1150
+P 9150 1100
+F 0 "#PWR016" H 9150 950 50  0001 C CNN
+F 1 "+9V" H 9165 1273 50  0000 C CNN
+F 2 "" H 9150 1100 50  0001 C CNN
+F 3 "" H 9150 1100 50  0001 C CNN
+	1    9150 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:Earth #PWR017
-U 1 1 5CBBDF98
-P 9800 1450
-F 0 "#PWR017" H 9800 1200 50  0001 C CNN
-F 1 "Earth" H 9800 1300 50  0001 C CNN
-F 2 "" H 9800 1450 50  0001 C CNN
-F 3 "~" H 9800 1450 50  0001 C CNN
-	1    9800 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 1150 9200 1350
-Wire Wire Line
-	9200 1350 9700 1350
-Wire Wire Line
-	9700 1350 9700 1150
-Wire Wire Line
-	9800 1150 9800 1450
 Wire Wire Line
 	5350 5750 5350 5900
 Wire Wire Line
@@ -719,7 +687,7 @@ Wire Wire Line
 	3250 6000 3250 6550
 Connection ~ 3250 6000
 $Comp
-L Device:R_POT_TRIM RV1
+L SCH1110---IO-Module-PCB-rescue:R_POT_TRIM-Device RV1
 U 1 1 5CB65E6D
 P 4150 6000
 F 0 "RV1" V 4250 5800 50  0000 C CNN
@@ -770,7 +738,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 2600 2000 5350
 $Comp
-L Connector:Conn_01x02_Female J1
+L SCH1110---IO-Module-PCB-rescue:Conn_01x02_Female-Connector J1
 U 1 1 5C67457B
 P 2100 2400
 F 0 "J1" V 2040 2212 50  0000 R CNN
@@ -781,7 +749,7 @@ F 3 "~" H 2100 2400 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R12
+L SCH1110---IO-Module-PCB-rescue:R-Device R12
 U 1 1 5CB7B538
 P 4200 4100
 F 0 "R12" V 4100 4000 50  0000 L CNN
@@ -803,7 +771,7 @@ Connection ~ 4550 4100
 Wire Wire Line
 	4550 4750 4900 4750
 $Comp
-L power:+5V #PWR0101
+L SCH1110---IO-Module-PCB-rescue:+5V-power #PWR0101
 U 1 1 5CC0B8C8
 P 3250 2750
 F 0 "#PWR0101" H 3250 2600 50  0001 C CNN
@@ -816,7 +784,7 @@ $EndComp
 Wire Wire Line
 	3250 2750 3250 3150
 $Comp
-L Device:C C11
+L SCH1110---IO-Module-PCB-rescue:C-Device C11
 U 1 1 5CC13127
 P 5350 6450
 F 0 "C11" H 5150 6350 50  0000 L CNN
@@ -829,7 +797,7 @@ $EndComp
 Wire Wire Line
 	5350 6600 5350 6750
 $Comp
-L Device:CP1 C10
+L SCH1110---IO-Module-PCB-rescue:CP1-Device C10
 U 1 1 5CC1A748
 P 3000 3550
 F 0 "C10" V 3150 3450 50  0000 L CNN
@@ -840,7 +808,7 @@ F 3 "~" H 3000 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C9
+L SCH1110---IO-Module-PCB-rescue:CP1-Device C9
 U 1 1 5CC2CF65
 P 6750 5300
 F 0 "C9" V 6900 5200 50  0000 L CNN
@@ -851,7 +819,7 @@ F 3 "~" H 6750 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP1 C1
+L SCH1110---IO-Module-PCB-rescue:CP1-Device C1
 U 1 1 5CC38145
 P 1650 5650
 F 0 "C1" V 1800 5550 50  0000 L CNN
@@ -861,4 +829,36 @@ F 3 "~" H 1650 5650 50  0001 C CNN
 	1    1650 5650
 	-1   0    0    1   
 $EndComp
+$Comp
+L SCH1110---IO-Module-PCB-rescue:Conn_01x02_Female-Connector J4
+U 1 1 5CB32E57
+P 9950 1000
+F 0 "J4" V 9890 812 50  0000 R CNN
+F 1 "Power In" V 10050 1100 50  0000 R CNN
+F 2 "conn-wire-pads:WP-75mil-1x02" H 9950 1000 50  0001 C CNN
+F 3 "~" H 9950 1000 50  0001 C CNN
+	1    9950 1000
+	0    1    -1   0   
+$EndComp
+$Comp
+L SCH1110---IO-Module-PCB-rescue:Earth-power #PWR0102
+U 1 1 5CB3A0E6
+P 9950 1600
+F 0 "#PWR0102" H 9950 1350 50  0001 C CNN
+F 1 "Earth" H 9950 1450 50  0001 C CNN
+F 2 "" H 9950 1600 50  0001 C CNN
+F 3 "~" H 9950 1600 50  0001 C CNN
+	1    9950 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1200 9950 1600
+Wire Wire Line
+	9850 1200 9850 1400
+Wire Wire Line
+	9850 1400 9150 1400
+Wire Wire Line
+	9150 1100 9150 1400
+Text Label 8500 3950 0    50   ~ 0
+AUDIO_SELECT
 $EndSCHEMATC

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CustomParts)(type Legacy)(uri ${KIPRJMOD}/CustomParts.lib)(options "")(descr ""))
+  (lib (name SCH1110---IO-Module-PCB-rescue)(type Legacy)(uri "${KIPRJMOD}/SCH1110 - IO Module PCB-rescue.lib")(options "")(descr ""))
 )
