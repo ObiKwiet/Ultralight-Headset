@@ -1569,10 +1569,10 @@
       (net 23 "Net-(R12-Pad1)"))
   )
 
-  (gr_text 2 (at 103.378 89.916 90) (layer F.SilkS) (tstamp 5CB0E943)
+  (gr_text 2 (at 102.997 79.883 90) (layer F.SilkS) (tstamp 5CB0E943)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text 1 (at 103.378 80.01 90) (layer F.SilkS) (tstamp 5CB0E942)
+  (gr_text 1 (at 102.997 89.154 90) (layer F.SilkS) (tstamp 5CB0E942)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "4\n" (at 105.029 52.832) (layer F.SilkS)

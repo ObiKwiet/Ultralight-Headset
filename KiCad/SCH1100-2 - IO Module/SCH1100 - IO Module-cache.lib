@@ -1,30 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:AudioJack3_Ground
+# Connector_AudioJack3_Ground
 #
-DEF Connector:AudioJack3_Ground J 0 40 Y Y 1 F N
+DEF Connector_AudioJack3_Ground J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "Connector:AudioJack3_Ground" 0 250 50 H V C CNN
+F1 "Connector_AudioJack3_Ground" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
-S -175 -200 -205 -100 0 1 0 F
-S 100 -225 -180 175 0 1 10 f
+S -200 -100 -250 -200 0 1 10 F
+S 100 150 -200 -200 0 1 10 f
 P 4 0 1 10 0 -100 25 -125 50 -100 100 -100 N
 P 5 0 1 10 -75 -100 -50 -125 -25 -100 -25 0 100 0 N
 P 5 0 1 10 100 100 -100 100 -100 -100 -125 -125 -150 -100 N
+X ~ G 0 -300 100 U 50 50 1 1 P
 X ~ R 200 0 100 L 50 50 1 1 P
 X ~ S 200 100 100 L 50 50 1 1 P
 X ~ T 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x02_Male
+# Connector_Conn_01x02_Male
 #
-DEF Connector:Conn_01x02_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02_Male" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -40,11 +44,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x04_Male
+# Connector_Conn_01x04_Male
 #
-DEF Connector:Conn_01x04_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Conn_01x04_Male" 0 -300 50 H V C CNN
+F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -66,11 +70,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x05_Female
+# Connector_Conn_01x05_Female
 #
-DEF Connector:Conn_01x05_Female J 0 40 Y N 1 F N
+DEF Connector_Conn_01x05_Female J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector:Conn_01x05_Female" 0 -300 50 H V C CNN
+F1 "Connector_Conn_01x05_Female" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -95,11 +99,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x08_Female
+# Connector_Conn_01x08_Female
 #
-DEF Connector:Conn_01x08_Female J 0 40 Y N 1 F N
+DEF Connector_Conn_01x08_Female J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector:Conn_01x08_Female" 0 -500 50 H V C CNN
+F1 "Connector_Conn_01x08_Female" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -133,11 +137,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Battery_Cell
+# Device_Battery_Cell
 #
-DEF Device:Battery_Cell BT 0 0 N N 1 F N
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Device:Battery_Cell" 100 0 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -152,11 +156,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_DPDT_x2
+# Switch_SW_DPDT_x2
 #
-DEF Switch:SW_DPDT_x2 SW 0 0 Y N 2 F N
+DEF Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Switch:SW_DPDT_x2" 0 -200 50 H V C CNN
+F1 "Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

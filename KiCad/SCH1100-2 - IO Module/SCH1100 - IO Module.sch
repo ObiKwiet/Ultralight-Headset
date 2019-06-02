@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:SCH1100 - IO Module-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Wiring Schematic, IO Module"
-Date ""
-Rev "A"
-Comp "SCH1100"
+Date "2019-06-01"
+Rev "-"
+Comp "SCH1100-2"
 Comment1 "Author: Seth Tucker"
 Comment2 ""
 Comment3 ""
@@ -138,11 +138,11 @@ Wire Wire Line
 Wire Wire Line
 	3350 1400 3350 2050
 Wire Wire Line
-	3350 2050 4100 2050
+	3350 2050 4000 2050
 Wire Wire Line
 	3450 1400 3450 2900
 Wire Wire Line
-	3450 2900 4650 2900
+	3450 2900 3900 2900
 Connection ~ 4650 2900
 Wire Wire Line
 	4650 2900 4650 3000
@@ -156,44 +156,44 @@ Wire Wire Line
 Text Label 5850 2900 0    50   ~ 0
 COM
 $Comp
-L Connector:Conn_01x04_Male P1
+L Connector:Conn_01x04_Male P5
 U 1 1 5C671BD2
 P 3050 3200
-F 0 "P1" V 3100 3550 50  0000 R CNN
-F 1 "Mates With A1A1J1" V 2950 3500 50  0000 R CNN
+F 0 "P5" V 3100 3550 50  0000 R CNN
+F 1 "Mates With A1A1J5" V 2950 3500 50  0000 R CNN
 F 2 "" H 3050 3200 50  0001 C CNN
 F 3 "~" H 3050 3200 50  0001 C CNN
 	1    3050 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male P2
+L Connector:Conn_01x02_Male P3
 U 1 1 5C671C6B
 P 4650 3200
-F 0 "P2" V 4700 3400 50  0000 C CNN
-F 1 "Mates With A1A1J2" V 4550 3150 50  0000 C CNN
+F 0 "P3" V 4700 3400 50  0000 C CNN
+F 1 "Mates With A1A1J3" V 4550 3150 50  0000 C CNN
 F 2 "" H 4650 3200 50  0001 C CNN
 F 3 "~" H 4650 3200 50  0001 C CNN
 	1    4650 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male P4
+L Connector:Conn_01x02_Male P1
 U 1 1 5C671CC9
 P 8150 3150
-F 0 "P4" V 8200 3400 50  0000 R CNN
-F 1 "Mates With A1A1J4" V 8050 3450 50  0000 R CNN
+F 0 "P1" V 8200 3400 50  0000 R CNN
+F 1 "Mates With A1A1J1" V 8050 3450 50  0000 R CNN
 F 2 "" H 8150 3150 50  0001 C CNN
 F 3 "~" H 8150 3150 50  0001 C CNN
 	1    8150 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male P3
+L Connector:Conn_01x02_Male P2
 U 1 1 5C671D27
 P 6800 3150
-F 0 "P3" V 6850 3400 50  0000 R CNN
-F 1 "Mates with A1A1J3" V 6700 3400 50  0000 R CNN
+F 0 "P2" V 6850 3400 50  0000 R CNN
+F 1 "Mates with A1A1J2" V 6700 3400 50  0000 R CNN
 F 2 "" H 6800 3150 50  0001 C CNN
 F 3 "~" H 6800 3150 50  0001 C CNN
 	1    6800 3150
@@ -201,4 +201,33 @@ F 3 "~" H 6800 3150 50  0001 C CNN
 $EndComp
 Text Notes 600  7650 0    50   ~ 0
 A1
+Text Label 8250 1950 1    50   ~ 0
+PTT-MIC
+Text Label 8150 2250 1    50   ~ 0
+RADIO_MONO
+Text Label 6900 2000 1    50   ~ 0
+LEFT_CH
+Text Label 6800 2500 1    50   ~ 0
+RIGHT_CH
+$Comp
+L Connector:Conn_01x02_Male P4
+U 1 1 5CF31A7E
+P 3900 3400
+F 0 "P4" V 3950 3600 50  0000 C CNN
+F 1 "Mates With A1A1J4" V 3800 3350 50  0000 C CNN
+F 2 "" H 3900 3400 50  0001 C CNN
+F 3 "~" H 3900 3400 50  0001 C CNN
+	1    3900 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3200 3900 2900
+Connection ~ 3900 2900
+Wire Wire Line
+	3900 2900 4650 2900
+Wire Wire Line
+	4000 3200 4000 2050
+Connection ~ 4000 2050
+Wire Wire Line
+	4000 2050 4100 2050
 $EndSCHEMATC
